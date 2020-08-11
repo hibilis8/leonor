@@ -1,0 +1,97 @@
+.card-group{
+    
+      margin-top:4em;
+}
+.card img {
+    height: 150px;
+    width: 200px;
+}
+.carousel-inner{
+    
+     padding: 0;
+     list-style: none;
+     margin-top:14px;
+     margin-left:3px;
+
+    
+}
+
+.carousel{
+    margin-top: 6em;
+    
+}
+.carousel-caption{
+    background-color: rgba(0,0,0,.5)
+}
+.fa {
+    float: left;
+     border-radius: 50%;
+     line-height: 40px;
+     color: #e0e0e0;
+     height: 40px;
+     width: 40px;
+     text-align: center;
+     margin-bottom: 40px;
+     border: 1px solid #e0e0e0 
+    
+}
+.social_icons_rounded ul {
+     padding: 0;
+     list-style: none;
+     margin-top: 200px;
+     margin-left: 500px;
+
+}
+    
+.jumbotron {
+    
+    margin-top:4em;
+    margin-bottom: 0px;
+    background: url("imagenes/jumbotron.jpg");
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    
+}
+#cardbody {
+    color: black
+}
+
+.collapse {
+    
+    
+    
+}
+
+@media (min-width: 768px) {
+  .sidebar-nav .navbar .navbar-collapse {
+    padding: 0;
+    max-height: none;
+  }
+
+  .sidebar-nav .navbar ul {
+    float: none;
+  }
+
+  .sidebar-nav .navbar ul:not {
+    display: block;
+  }
+
+  .sidebar-nav .navbar li {
+    float:none;
+    display: block;
+  }
+
+  .sidebar-nav .navbar li a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  .logo_menu {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+
+
